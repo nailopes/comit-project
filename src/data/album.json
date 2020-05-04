@@ -30,6 +30,23 @@
         "altText": "Item alt text" ,
         "href": "https://www.petfinder.com/"  
     },
+
+    {
+        "src": "https://i1.wp.com/calgaryanimalrescue.com/wp-content/uploads/2019/03/cars-logo-noletter-trans-square.png?fit=1480%2C1480&ssl=1",
+        "description": "Calgary Animal Rescue Society is made up of volunteers, some of us volunteer as foster parents, participate in adoption events, work at fundraisers, and are members of our Board of Directors. We all do our best to help animals in need find new fur-ever homes.",
+        "altText": "Item alt text",
+        "href":"https://calgaryanimalrescue.com/"    
+
+    },
+
+    {
+        "src": "https://static.wixstatic.com/media/ba69f1_4c452e6e02994480b9813ce6e0d6f342.png/v1/fill/w_210,h_154,al_c,q_85,usm_0.66_1.00_0.01/ba69f1_4c452e6e02994480b9813ce6e0d6f342.webp",
+        "description": "Tails of The Misunderstood Canine Rescue Society is dedicated to rescuing abandoned, surrendered and abused dogs. We advocate for all breeds and support responsible dog guardianship.",
+        "altText": "Item alt text",
+        "href":"https://www.tailsofthemisunderstood.com/"    
+
+    },
+
     {
         "src": "https://pawsitivematch.org/wp-content/themes/pawsitive_match_new/assets/images/logos/pawsitive_match_logo.svg",
         "description": "Pawsitive Match Rescue Foundation, a registered Canadian charity, is a not-for-profit animal rescue based in Calgary, Alberta, Canada. We are run independently and made up entirely of a dedicated group of volunteers. We work very hard to save dogs and cats in life-threatening situations and give them a second chance at life. We then focus on placing these amazing animals in the right family and creating what we call a “pawsitive match”.",
@@ -39,30 +56,50 @@
 
 
     {
-        "src": "https://insidelatinamerica.net/wp-content/uploads/2018/01/noImg_2.jpg",
-        "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbBkq13bgeAXhTYu1BHE7lQab2Xc44PF76SI61cCFvFaT1WdGE&usqp=CAU",
+        "description": "We provide value to you through these services: Reunite lost cats and dogs with their owners. Licence cats and dogs residing in Calgary. Investigate complaints regarding animals. Help neighbours resolve animal-related issues. Shelter and care for impounded pets in our vet-run facility. Provide adoption services, finding new homes for cats and dogs. Operate a No Cost Spay/Neuter program through the Fair Entry program.",
         "altText": "Item alt text" ,
         "href":"https://www.calgary.ca/CSPS/ABS/Pages/Animal-Services/Adopting-a-cat-or-dog.aspx"       
     },
 
-
     {
-        "src": "https://insidelatinamerica.net/wp-content/uploads/2018/01/noImg_2.jpg",
-        "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-        "altText": "Item alt text"       
+        "src": "data:image/jpeg;base64,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",
+        "description": "Wag-A-Muffins Animal Rescue is a not-for-profit, no-kill, volunteer-run organization focused on helping provide care for Animals in need. Our operation runs entirely through foster homes and all donations go directly to the animals we save. We were founded in 2018, by a group of 6 dedicated members looking to change the face of rescues to be more transparent, ethical, and responsible. ",
+        "altText": "Item alt text",
+        "href":"http://www.wag-a-muffins.com/"    
+
     },
 
 
     {
-        "src": "https://insidelatinamerica.net/wp-content/uploads/2018/01/noImg_2.jpg",
-        "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-        "altText": "Item alt text"
+        "src": "http://www.cochranehumane.ca/wp-content/themes/chs/images/logos/header-logo.png",
+        "description": "The Cochrane & Area Humane Society provides food, shelter, medical care and the opportunity for adoption; to unwanted, surrendered, lost and unclaimed animals while promoting responsible pet ownership through its educational programs, rural spay/neuter programs, and public fundraising events. Was founded in 1998 as a collaboration between Tracy Keith, a volunteer at the time with Animal Services and Charlene Ruttle, an Animal Control Officer. They worked together to improve the living conditions for impounded animals and recognized a need in the community for better animal sheltering.",
+        "altText": "Item alt text",
+        "href":"http://www.cochranehumane.ca/"    
+
+    },
+
+    {
+        "src": "https://crackmacs.ca/wp-content/uploads/2019/09/MEOW_foundation-e1568065050556.jpg",
+        "description": "Founded in 2000, MEOW Foundation is a specialized cat-focused registered charity and humane society with a no-kill mandate. We rescue and facilitate the adoption of stray and abandoned cats into new, loving permanent homes. We work hard to ensure that each MEOW cat is matched with the best possible home based on his or her personality, history, habits and individual needs.",
+        "altText": "Item alt text",
+        "href":"https://www.meowfoundation.com/"    
+
     },
 
 
     {
-        "src": "https://insidelatinamerica.net/wp-content/uploads/2018/01/noImg_2.jpg",
-        "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-        "altText": "Item alt text"        
+        "src": "https://arf.ab.ca/wp-content/uploads/2013/12/Shop_ARF_Logo.jpg",
+        "description": "The Animal Rescue Foundation (ARF) of Alberta is an animal rescue organization helping dogs and cats in Alberta. Founded in 1995, ARF is a volunteer-based organization and registered non-profit charity. Our mission is to rescue stray and unwanted dogs and cats rural areas and communities with limited resources and place them in loving, permanent homes while providing programs to reduce pet over-population.",
+        "altText": "Item alt text",
+        "href":"https://arf.ab.ca/"
+    },
+
+
+    {
+        "src": "http://mistycreekdogrescue.com/wp-content/themes/unite/images/logo.png",
+        "description": "Founded in 1998 as a no-kill shelter, Misty Creek Dog Rescue is one of many volunteer-run shelters in Western Canada shouldering the burden of the thousands of animals who are abandoned, abused or surrendered every year. Misty Creek Dog Rescue takes in dogs from pounds, reserves, other shelters and voluntary owner surrenders providing them with medical care, vaccinations, and behavioral training with the aim of finding them forever homes. Because of the strict no-kill mandate, dogs may stay at the shelter for years until they are successfully placed with a suitable family.",
+        "altText": "Item alt text",
+        "href":"https://mistycreekdogrescue.com/"       
     }
 ]
