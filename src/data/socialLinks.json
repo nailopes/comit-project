@@ -1,14 +1,12 @@
 [
+
     {
-        "text": "Follow on Twitter",
-        "url": "http://www.twitter.com/nas5w"
+       "text":"Why Adopt",
+       "url":"https://www.humanesociety.org/resources/top-reasons-adopt-pet"
     },
-    {
-        "text": "Like on Facebook",
-        "url": "#"
-    },
+
     {
         "text": "Email me",
-        "url": "#"
+        "url": "adoptapetcalgary@gmail.com"
     }
 ]

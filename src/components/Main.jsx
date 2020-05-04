@@ -1,27 +1,19 @@
 import React from 'react';
 import Album from './Album';
-import { Button, Container, Jumbotron } from 'reactstrap';
+import {  Container, Jumbotron } from 'reactstrap';
 
-const Main = ({ album }) => {
+const Main = ({ album, totalNumberOfAnimals, calgaryNumberOfAnimals, isLoaded }) => {
+
     return (
         <main role="main">
             <Jumbotron className="text-center">
-                <Container>
-                    <h1 className="jumbotron-heading">Album example</h1>
+        
+                <Container hidden={!isLoaded}>
+                    <h1 className="jumbotron-heading">There are at least {totalNumberOfAnimals}  pets avaible for adoption in North America. {calgaryNumberOfAnimals} of them are in Calgary. </h1>
                     <p className="lead text-muted">
-                        Something short and leading about the collection
-                        below—its contents, the creator, etc. Make it short and
-                        sweet, but not too short so folks don't simply skip over
-                        it entirely.
+                        According to Petfinder.
                     </p>
-                    <p>
-                        <Button color="primary" className="mx-1 my-2">
-                            Main call to action
-                        </Button>
-                        <Button color="secondary" className="my-2">
-                            Secondary action
-                        </Button>
-                    </p>
+                    <h1 className="jumbotron-heading">Check out some shelters in Calgary</h1>
                 </Container>
             </Jumbotron>
             <Album album={album} />

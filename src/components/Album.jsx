@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Button,
+    
     ButtonGroup,
     Card,
     CardImg,
@@ -10,6 +10,7 @@ import {
     Container,
     Row
 } from 'reactstrap';
+
 
 const Album = ({ album }) => {
     return (
@@ -30,20 +31,9 @@ const Album = ({ album }) => {
                                         <CardText>{item.description}</CardText>
                                         <div className="d-flex justify-content-between align-items-center">
                                             <ButtonGroup>
-                                                <Button
-                                                    outline
-                                                    color="secondary"
-                                                    size="sm"
-                                                >
-                                                    View
-                                                </Button>
-                                                <Button
-                                                    outline
-                                                    color="secondary"
-                                                    size="sm"
-                                                >
-                                                    Edit
-                                                </Button>
+                                              
+                                            <a style={{textAlign:"center", outlineStyle:"solid" ,outlineColor:"gray", opacity:"0.5"}} href={item.href} class="btn" target="_blank" rel="noopener noreferrer">View</a>
+                                                
                                             </ButtonGroup>
                                             <small className="text-muted">
                                                 {item.time}

@@ -11,24 +11,19 @@ import {
 
 const Header = ({ collapsed, toggleNavbar, socialLinks }) => {
     return (
-        <header>
-            <Navbar color="dark" dark>
-                <Container>
+        <header >
+            <Navbar  color="dark" dark >
+                <Container >
                     <Collapse isOpen={!collapsed} navbar>
                         <Row>
                             <Col sm="8" md="7" className="py-4">
-                                <h4 className="text-white">About</h4>
+                                {/* <h4 className="text-white">About</h4> */}
                                 <p className="text-muted">
-                                    Add some information about the album below,
-                                    the author, or any other background context.
-                                    Make it a few sentences long so folks can
-                                    pick up some informative tidbits. Then, link
-                                    them off to some social networking sites or
-                                    contact information.
+                                    HERE YOU CAN SEE A LIST OF SHELTER TO FIND YOU FOREVER BUDDY!
                                 </p>
                             </Col>
                             <Col sm="4" md={{ offset: 1 }} className="py-4">
-                                <h4 className="text-white">Contact</h4>
+                                {/* <h4 className="text-white">Contact</h4> */}
                                 <ul className="list-unstyled">
                                     {socialLinks.map((link, key) => {
                                         return (
@@ -36,6 +31,8 @@ const Header = ({ collapsed, toggleNavbar, socialLinks }) => {
                                                 <a
                                                     href={link.url}
                                                     className="text-white"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
                                                 >
                                                     {link.text}
                                                 </a>
@@ -46,11 +43,11 @@ const Header = ({ collapsed, toggleNavbar, socialLinks }) => {
                             </Col>
                         </Row>
                     </Collapse>
-                    <NavbarBrand
+                    <NavbarBrand 
                         href="/"
                         className="d-flex align-items-center mr-auto"
                     >
-                        <svg
+                        {/* <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="20"
                             height="20"
@@ -65,7 +62,7 @@ const Header = ({ collapsed, toggleNavbar, socialLinks }) => {
                             <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
                             <circle cx="12" cy="13" r="4" />
                         </svg>
-                        <strong>Album</strong>
+                        <strong>Album</strong> */}
                     </NavbarBrand>
                     <NavbarToggler onClick={toggleNavbar} className="mr-2" />
                 </Container>
